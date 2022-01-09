@@ -36,14 +36,6 @@ document.querySelectorAll('.products-preview-container .product-preview .fa-time
     productPreviewContainer.style.display = 'none';
     prodcutPreview.forEach(closePreview =>{
       closePreview.style.display = 'none';
-            
-      window.onclick = function(event) {
-  if (event.target == productPreviewContainer) {
-    productPreviewContainer.style.display = 'none';
-    prodcutPreview.forEach(closePreview =>{
-      closePreview.style.display = 'none';
-        }
-      }
     });
   };
 });
